@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      id="googleFonts"
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900%7CPoppins:200,300,400,500,600,700,800&amp;display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa7550850a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+    <title>Ray of Light Therapy & Counselling | Milford | Letterkenny</title>
+  </head>
+  <body>
+    <div id="top" class="bg-darker">
+      <div class="nav-bar container">
+        <div class="row text-left">
+          <div class="col-lg-3 col-md-5 col-9">
+            <a href="index.html">
+              <img class="logo" src="./img/therapy.png" />
+            </a>
+          </div>
+          <div class="col-6 text-3 mt-1 d-none d-lg-block d-xl-block">
+            <div class="row">
+              <div class="d-flex space-evenly col-12">
+                <a href="./index.html" class="no-deco"><p>Home</p></a>
+                <a href="./index.html#more" class="no-deco"><p>Services</p></a>
+                <a href="#top" class="selected no-deco"><p>Therapy</p></a>
+                <a href="./index.html#about" class="no-deco"
+                  ><p>Qualifications</p></a
+                >
+                <a href="./index.html#contact" class="no-deco"
+                  ><p>Contact</p></a
+                >
+              </div>
+            </div>
+            <div class="line col-12"></div>
+          </div>
+          <div
+            class="col-lg-3 col-md-7 col-3 inline align-items-center text-center"
+          >
+            <a href="tel:+353851362393" class="no-deco">
+              <div
+                class="number d-none d-sm-block d-sm-none d-md-block pe-5 pe-lg-0 ps-0"
+              >
+                <i class="fa-solid pe-1 color-gold fa-phone"></i>
+                (+353) 085 136 2393
+              </div>
+            </a>
+            <div class="select-menu">
+              <div class="select-btn">
+                <div
+                  class="button btn-black menu-padding me-3 me-md-0 d-lg-none d-xl-block d-xl-none"
+                >
+                  <i class="fa-solid pe-1 menu-bars fa-bars p-1"></i>
+                </div>
+              </div>
+              <ul class="options font2">
+                <a href="./index.html" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 pe-1 menu-bars fa-house"></i>
+                    <span class="option-text">Home</span>
+                  </li></a
+                >
+                <a href="./index.html#more" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 menu-bars fa-user-group"></i>
+                    <span class="option-text">Services</span>
+                  </li></a
+                >
+                <a href="#top" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 pe-1 menu-bars fa-brain"></i>
+                    <span class="option-text">Therapy</span>
+                  </li>
+                </a>
+                <a href="./index.html#about" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 menu-bars fa-graduation-cap"></i>
+                    <span class="option-text">Qualifications</span>
+                  </li>
+                </a>
+                <a href="./index.html#contact" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid pe-1 font2 menu-bars fa-phone"></i>
+                    <span class="option-text">Contact</span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="py-5 container col">
+          <h4>Types of Therapy</h4>
+          <div class="divider mb-4"></div>
+          <div class="text-center">
+            <div class="font1 font-italic">
+              "Know all the theories, master all the techniques, but as you
+              touch a human soul be just another human soul."
+            </div>
+            <div class="font1 font-bold mb-5">C.G. Jung</div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col-lg-4 mb-5">
+              <ul class="nav-tabs col-sm-3">
+                <li data-tab-target="#cbt" id="cbt-link" class="active tab">
+                  <a class="tab-link no-deco"
+                    >Cognitive Behaviour Therapy (CBT)
+                    <i
+                      class="fa-solid pe-1 color-gold fa-arrow-right d-none d-lg-block"
+                    ></i
+                    ><i
+                      class="fa-solid pe-1 color-gold fa-arrow-down d-block d-lg-none"
+                    ></i
+                  ></a>
+                </li>
+                <li data-tab-target="#pt" id="pt-link" class="tab">
+                  <a class="tab-link no-deco"
+                    >Psychodynamic Therapy
+                    <i
+                      class="fa-solid pe-1 color-gold fa-arrow-right d-none d-lg-block"
+                    ></i
+                    ><i
+                      class="fa-solid pe-1 color-gold fa-arrow-down d-block d-lg-none"
+                    ></i
+                  ></a>
+                </li>
+                <li data-tab-target="#rt" id="rt-link" class="tab">
+                  <a class="tab-link no-deco"
+                    >Reality Therapy
+                    <i
+                      class="fa-solid pe-1 color-gold fa-arrow-right d-none d-lg-block"
+                    ></i
+                    ><i
+                      class="fa-solid pe-1 color-gold fa-arrow-down d-block d-lg-none"
+                    ></i
+                  ></a>
+                </li>
+                <li data-tab-target="#sfbt" id="sfbt-link" class="tab">
+                  <a class="tab-link no-deco"
+                    >Solution Focused Brief Therapy
+                    <i
+                      class="fa-solid pe-1 color-gold fa-arrow-right d-none d-lg-block"
+                    ></i
+                    ><i
+                      class="fa-solid pe-1 color-gold fa-arrow-down d-block d-lg-none"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-8 px-lg-5">
+              <div data-tab-content class="active" id="cbt">
+                <img
+                  class="therapy-img"
+                  src="./img/cognitive-behaviour-therapy.jpg"
+                />
+                <h4>Cognitive Behaviour Therapy (CBT)</h4>
+                <div class="font1">
+                  <p>
+                    Explores thought patterns which in turn affects how you feel
+                    and ultimately how you behave. For example;
+                  </p>
+                  <ul>
+                    <li>
+                      You were unsuccessful in your interview for a new job
+                    </li>
+                    <li>You think you are not employable (thought)</li>
+                    <li>You feel hopeless (feel)</li>
+                    <li>
+                      You stop looking for possible work opportunities (behave)
+                    </li>
+                  </ul>
+                  <p>
+                    If however you were to look at it from a different
+                    perspective
+                  </p>
+                  <ul>
+                    <li>You think how do I improve my prospects (thought)</li>
+                    <li>You begin to feel in control and hopeful (feel)</li>
+                    <li>You enrol on a course that upskills you (behave)</li>
+                  </ul>
+                  <p>
+                    CBT can give fresh insights and tools to view situations in
+                    a more positive way, in particular if negative thinking is
+                    our predominant pattern.
+                  </p>
+                </div>
+              </div>
+              <div data-tab-content id="pt">
+                <img
+                  class="therapy-img"
+                  src="./img/psychodynamic-therapy.jpg"
+                />
+                <h4>Psychodynamic Therapy</h4>
+                <div class="font1">
+                  <p>
+                    Explores your early childhood attachments to parents /
+                    caregivers and how these relationships are impacting on your
+                    life today. This is often unconscious / not in our
+                    awareness.
+                  </p>
+                  <p>
+                    Exploration in therapy helps you to become aware that your
+                    thinking, feelings and behaviours are frequently still
+                    linked to childhood, you can then make conscious choices to
+                    update these outdated scripts and live a more positive life.
+                    For example:
+                  </p>
+                  <ul>
+                    <li>
+                      As a child you only felt loved and accepted when you were
+                      obedient
+                    </li>
+                    <li>
+                      Now as an adult, you constantly try to people please even
+                      to your own detriment so others will find you acceptable.
+                    </li>
+                    <li>
+                      Therapy can help identify these patterns and you can
+                      choose new ways of being.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div data-tab-content id="rt">
+                <img class="therapy-img" src="./img/reality-therapy.jpg" />
+                <h4>Reality Therapy</h4>
+                <div class="font1">
+                  <p>
+                    Explores how to look at your problem and identify what would
+                    be the best solution, therefore focus on what steps you can
+                    take to achieve same. For example:
+                  </p>
+                  <ul>
+                    <li>
+                      Your mother refuses to accept that you are now an adult
+                      and capable to make your own life choices.
+                    </li>
+                    <li>This is causing conflict in your relationship.</li>
+                    <li>
+                      Discuss what you both need/expect from what is now an
+                      adult relationship and the boundaries necessary to
+                      maintain a healthier relationship.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div data-tab-content id="sfbt">
+                <img
+                  class="therapy-img"
+                  src="./img/solution-focused-brief-therapy.jpg"
+                />
+                <h4>Solution Focused Brief Therapy</h4>
+                <div class="font1">
+                  <p>
+                    Helps you identify and find ways to resolve a short term
+                    situation that is causing you concern. For example:
+                  </p>
+                  <ul>
+                    <li>
+                      You are constantly overwhelmed with work commitments.
+                    </li>
+                    <li>
+                      You can identify that your workload has doubled since the
+                      company secured new orders.
+                    </li>
+                    <li>
+                      Address this with your boss, highlighting your desire to
+                      work to the best of your ability, however the new workload
+                      is compromising the quality of your work.
+                    </li>
+                    <li>
+                      Explore the possibility of extra staff to reduce your
+                      stress and therefore maximise efficiency for new business.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid px-5 bg-dark">
+      <div class="row footer">
+        <div class="text-center">
+          <img class="footer-logo" src="./img/footy.png" />
+        </div>
+      </div>
+    </div>
+    <script src="tabs.js" defer></script>
+    <script src="menu.js"></script>
+  </body>
+</html>

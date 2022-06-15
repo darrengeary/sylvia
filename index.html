@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      id="googleFonts"
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900%7CPoppins:200,300,400,500,600,700,800&amp;display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa7550850a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+    <title>Ray of Light Therapy & Counselling | Milford | Letterkenny</title>
+  </head>
+  <body>
+    <div id="home" class="bg-darker">
+      <div class="nav-bar container">
+        <div class="row text-left">
+          <div class="col-lg-3 col-md-5 col-9">
+            <a href="index.html">
+              <img class="logo" src="./img/therapy.png" />
+            </a>
+          </div>
+          <div class="col-6 text-3 mt-1 d-none d-lg-block d-xl-block">
+            <div class="row">
+              <div class="d-flex space-evenly col-12">
+                <a href="#home" class="selected no-deco"><p>Home</p></a>
+                <a href="#more" class="no-deco"><p>Services</p></a>
+                <a href="./types-of-therapy.html" class="no-deco"
+                  ><p>Therapy</p></a
+                >
+                <a href="#about" class="no-deco"><p>Qualifications</p></a>
+                <a href="#contact" class="no-deco"><p>Contact</p></a>
+              </div>
+            </div>
+            <div class="line col-12"></div>
+          </div>
+          <div
+            class="col-lg-3 col-md-7 col-3 inline align-items-center text-center"
+          >
+            <a href="tel:+353851362393" class="no-deco">
+              <div
+                class="number d-none d-sm-block d-sm-none d-md-block pe-5 pe-lg-0 ps-0"
+              >
+                <i class="fa-solid pe-1 color-gold fa-phone"></i>
+                (+353) 085 136 2393
+              </div>
+            </a>
+
+            <div class="select-menu">
+              <div class="select-btn">
+                <div
+                  class="button btn-black menu-padding me-3 me-md-0 d-lg-none d-xl-block d-xl-none"
+                >
+                  <i class="fa-solid pe-1 menu-bars fa-bars p-1"></i>
+                </div>
+              </div>
+              <ul class="options font2">
+                <a href="#home" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 pe-1 menu-bars fa-house"></i>
+                    <span class="option-text">Home</span>
+                  </li></a
+                >
+                <a href="#more" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 menu-bars fa-user-group"></i>
+                    <span class="option-text">Services</span>
+                  </li></a
+                >
+                <a href="./types-of-therapy.html" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 pe-1 menu-bars fa-brain"></i>
+                    <span class="option-text">Therapy</span>
+                  </li>
+                </a>
+                <a href="#about" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid font2 menu-bars fa-graduation-cap"></i>
+                    <span class="option-text">Qualifications</span>
+                  </li>
+                </a>
+                <a href="#contact" class="no-deco">
+                  <li class="option">
+                    <i class="fa-solid pe-1 font2 menu-bars fa-phone"></i>
+                    <span class="option-text">Contact</span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="text-1">Ray of Light</h1>
+        <h2 class="text-2">COUNSELLING SERVICES</h2>
+        <div class="mt-2 mb-4 divider d-flex mx-auto"></div>
+        <div>
+          <p class="mx-2 header-text">
+            Donegal counsellor and psychotherapist providing therapy<br />
+            sessions for individuals, in a wide range of areas.
+          </p>
+        </div>
+      </div>
+      <div>
+        <a
+          href="#more"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          class="button btn-black mx-2 my-4"
+          >Learn More</a
+        >
+        <a
+          href="#contact"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          class="button btn-gold text-white mx-2 my-4"
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+    <div id="more" class="bg-darker">
+      <div class="container py-7">
+        <div class="row d-flex align-items-start">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            class="col-lg-7 pe-lg-5 mb-3 mb-lg-0 align-items-start"
+          >
+            <h3 class="title">What I Offer</h3>
+            <div class="mb-4 divider"></div>
+            <p>
+              We will all face struggles at some stage in life, often managing
+              with support of family and friends. Sometimes we can feel
+              overwhelmed with life issues and may choose to talk with a
+              counsellor.
+            </p>
+            <p>
+              I am a Humanistic Integrative Psychotherapist, drawing on the
+              Person-Centred Approach as the core of my work. This means I take
+              a holistic view to include your emotional, behavioural, cognitive,
+              and physiological needs. From this perspective I integrate various
+              therapeutic approaches to provide best therapeutic outcome for
+              you.
+            </p>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            class="col-lg-5 pb-5 ps-lg-5 align-items-start d-none d-sm-block d-sm-none d-md-block"
+          >
+            <h4 class="title">I Can Help With</h4>
+            <div class="mb-4 divider"></div>
+            <div class="row">
+              <div class="col">
+                <div class="font1 row align-items-start">
+                  <div class="col-1">
+                    <i class="fa-solid fa-face-frown"></i>
+                  </div>
+                  <div class="col-11 pb-1">
+                    Low mood or finding life a daily struggle
+                  </div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-comment-slash"></i>
+                  </div>
+                  <div class="col-11 pb-1">Unable to talk with loved ones</div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-comments"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">
+                    Having relationship difficulties
+                  </div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-heart-circle-bolt"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">
+                    Suffering from post-traumatic stress
+                  </div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-heart-crack"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">Grief, Loss or Bereavement</div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-face-frown-open"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">Anxiety</div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-face-tired"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">Depression</div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-person-harassing"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">Bullying</div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-hand-holding-heart"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">Low Self-Esteem</div>
+                  <div class="col-1">
+                    <i class="fa-solid fa-child-reaching"></i><br />
+                  </div>
+                  <div class="col-11 pb-1">Desire to Change your Life</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line mb-5"></div>
+        <div class="row services pt-md-1">
+          <div class="col-4">
+            <a href="#contact" class="no-deco">
+              <h5 class="font2">
+                <i class="col-12 col-md-2 fa-solid fa-phone"></i>Phone
+              </h5></a
+            >
+          </div>
+          <div class="col-4">
+            <a href="#contact" class="no-deco">
+              <h5 class="font2">
+                <i
+                  class="col-12 col-md-2 fa-solid fa-people-arrows-left-right"
+                ></i
+                >Face to Face
+              </h5>
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="#contact" class="no-deco">
+              <h5 class="font2">
+                <i class="col-12 col-md-2 fa-solid fa-globe"></i>Online
+              </h5></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5 py-3">
+      <div class="row">
+        <div class="col">
+          <h3 class="title">Types of Therapy</h3>
+          <div class="mb-5 divider"></div>
+        </div>
+      </div>
+      <div class="row d-flex align-items-start">
+        <div class="col-lg-6 my-3">
+          <div class="row d-flex align-items-start">
+            <div class="col-1">
+              <i class="fa-solid fa-lg fa-brain"></i>
+            </div>
+            <div class="col-11">
+              <h5 class="title">Cognitive Behaviour Therapy (CBT)</h5>
+              <p>
+                Explores thought patterns which in turn affects how you feel and
+                ultimately how you behave.
+              </p>
+              <a href="./types-of-therapy.html" class="text-3 no-deco">
+                Learn More <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 my-3 d-flex align-items-start">
+          <div class="col-1">
+            <i class="fa-solid fa-lg fa-brain"></i>
+          </div>
+          <div class="col-11">
+            <h5 class="title">Psychodynamic Therapy</h5>
+            <p>
+              Explores your early childhood and how this is impacting on your
+              life today. When you become aware that your thinking, feelings and
+              behaviours are frequently still linked to childhood, you can then
+              make conscious choices to update these outdated scripts and live a
+              more positive life.
+            </p>
+            <a href="./types-of-therapy.html#p" class="text-3 no-deco">
+              Learn More <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 my-3 d-flex align-items-start">
+          <div class="col-1">
+            <i class="fa-solid fa-lg fa-brain"></i>
+          </div>
+          <div class="col-11">
+            <h5 class="title">Reality Therapy</h5>
+            <p>
+              Explores how to look at your problem and identify what would be
+              the best solution, therefore focus on what steps you can take to
+              achieve same.
+            </p>
+            <a href="./types-of-therapy.html#r" class="text-3 no-deco">
+              Learn More <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 my-3 d-flex align-items-start">
+          <div class="col-1">
+            <i class="fa-solid fa-lg fa-brain"></i>
+          </div>
+          <div class="col-11">
+            <h5 class="title">Solution Focused Brief Therapy</h5>
+            <p>
+              Helps you identify and find ways to resolve a short term situation
+              that is causing you concern.
+            </p>
+            <a href="./types-of-therapy.html#sfb" class="text-3 no-deco">
+              Learn More <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-darker py-7 d-block d-md-none">
+      <div
+        class="container"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
+        <div class="text-center">
+          <h4 class="title">I Can Help With</h4>
+          <div class="mb-4 center divider"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="font1 row align-items-start">
+              <div class="col-1">
+                <i class="fa-solid fa-face-frown"></i>
+              </div>
+              <div class="col-11 pb-1">
+                Low mood or finding life a daily struggle
+              </div>
+              <div class="col-1">
+                <i class="fa-solid fa-comment-slash"></i>
+              </div>
+              <div class="col-11 pb-1">Unable to talk with loved ones</div>
+              <div class="col-1">
+                <i class="fa-solid fa-comments"></i><br />
+              </div>
+              <div class="col-11 pb-1">Having relationship difficulties</div>
+              <div class="col-1">
+                <i class="fa-solid fa-heart-circle-bolt"></i><br />
+              </div>
+              <div class="col-11 pb-1">
+                Suffering from post-traumatic stress
+              </div>
+              <div class="col-1">
+                <i class="fa-solid fa-heart-crack"></i><br />
+              </div>
+              <div class="col-11 pb-1">Grief, Loss or Bereavement</div>
+              <div class="col-1">
+                <i class="fa-solid fa-face-frown-open"></i><br />
+              </div>
+              <div class="col-11 pb-1">Anxiety</div>
+              <div class="col-1">
+                <i class="fa-solid fa-face-tired"></i><br />
+              </div>
+              <div class="col-11 pb-1">Depression</div>
+              <div class="col-1">
+                <i class="fa-solid fa-person-harassing"></i><br />
+              </div>
+              <div class="col-11 pb-1">Bullying</div>
+              <div class="col-1">
+                <i class="fa-solid fa-hand-holding-heart"></i><br />
+              </div>
+              <div class="col-11 pb-1">Low Self-Esteem</div>
+              <div class="col-1">
+                <i class="fa-solid fa-child-reaching"></i><br />
+              </div>
+              <div class="col-11 pb-1">Desire to Change your Life</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="bg-paralex">
+      <div class="container py-3">
+        <div class="row certs align-items-start color-white">
+          <div
+            class="col-sm-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              src="./img/grad.png"
+              alt="Counsellor Psychotherapy Milford"
+              width="50"
+              height="50"
+            />
+            <div class="cert cert-space">
+              Bachelor of Arts in Integrative Counselling & Psychotherapy
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <img
+              src="./img/diploma.png"
+              alt="Cognitive Behaviour Therapy"
+              width="50"
+              height="52"
+            />
+            <div class="cert cert-space">
+              Diploma in Cognitive Behaviour Therapy (CBT)
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <img
+              src="./img/diploma.png"
+              alt="Solution Focused Brief Therapy"
+              width="50"
+              height="52"
+            />
+            <div class="cert">
+              Certificate in Solution Focused Brief Therapy
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <img src="./img/iacp.png" alt="IACP" width="50" height="52" />
+            <div class="cert pb-0">
+              Accredited with Irish Association of Counsellors &
+              Psychotherapists
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row py-3 my-5">
+        <div class="col-lg-5 order-lg-2 d-flex justify-content-center">
+          <img
+            alt="Sylvia Lennon Therapist Milford"
+            class="portrait"
+            src="./img/sylvialennon.png"
+          />
+        </div>
+        <div class="col-lg-7 mt-lg-0 mt-3 order-lg-1 pb-lg-0 pb-3">
+          <div class="who">
+            <div class="divider me-3"></div>
+            <h2 class="text-2 m-0"></h2>
+          </div>
+          <h4 class="title">Sylvia Lennon</h4>
+          <h5 class="title pb-3">Dip., BA., MIACP.</h5>
+          <p>
+            <i class="fa-solid pe-2 fa-lg fa-quote-left"></i>
+            I believe the trusting and respectful relationship between client
+            and counsellor is the foundation of therapy. I offer a safe,
+            confidential, and non-judgemental space in which you can explore the
+            issues that are causing you concern.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container-fluid bg-darker">
+      <div class="row pt-5">
+        <div class="col">
+          <h3 class="title">Contact Me</h3>
+          <div class="mb-5 divider"></div>
+        </div>
+      </div>
+      <div class="row pb-md-7">
+        <div class="col-lg-6 col-12"><div id="map" class="map"></div></div>
+        <div class="col-lg-6 col-12 px-lg-5 py-7">
+          <h5 data-aos="fade-left" data-aos-duration="1000" class="title">
+            Ballyconnelly, Milford, Co. Donegal. F92 TNR3
+          </h5>
+          <a
+            class="no-deco"
+            href="https://www.google.com/maps/dir//Glentidaly,+Co.+Donegal,+F92+TNR3/"
+            target="_blank"
+            ><p
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+              class="title mb-1 directions"
+            >
+              GET DIRECTIONS
+            </p></a
+          >
+          <div class="divider mb-5"></div>
+          <a href="mailto:rayoflightcounselling@outlook.com" class="no-deco">
+            <h5
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              class="title font3 mb-4"
+            >
+              <i class="fa-solid pe-3 fa-envelope"></i>Email:
+              rayoflightcounselling@outlook.com
+            </h5>
+          </a>
+          <a href="tel:+353851362393" class="no-deco">
+            <h5
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+              class="title font3 mb-5"
+            >
+              <i class="fa-solid pe-3 fa-phone-flip"></i>Phone: (+353) 085 136
+              2393
+            </h5></a
+          >
+          <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+            I provide therapy and counselling in Milford, North East Donegal and
+            cover clients from Ramelton, Kilmacrennan, Rathmullen, Portsalon,
+            Downings, Creeslough, Letterkenny and Manorcunningham areas.
+            Including phone and online services for clients everywhere.
+          </p>
+          <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="550">
+            I am always here to help you with any queries. Give me a call or
+            send me an email. I will get back to you as soon as I can.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid px-5 bg-dark">
+      <div class="row footer">
+        <div class="text-center">
+          <img class="footer-logo" src="./img/footy.png" />
+        </div>
+      </div>
+    </div>
+    <script src="map.js"></script>
+    <script src="menu.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+  </body>
+</html>
