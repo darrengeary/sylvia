@@ -548,3 +548,17 @@ a:hover {
   font-size: 15px;
   color: #333;
 }
+
+.syfo {
+  padding-top: 60px;
+  width: fit-content;
+  margin: auto;
+}
+.syfo:hover {
+  color: white;
+}
+
+.syfo-logo {
+  width: 60px;
+  padding-right: 15px;
+}
